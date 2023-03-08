@@ -1,0 +1,231 @@
+h1{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 800px;
+  height: 800px;
+  font-size: 0;
+  position: relative;
+}
+
+.dispari div{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.pari div{
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.dispari div:nth-child(odd), .pari div:nth-child(even){
+  background-color: #af9069;
+}
+
+.dispari div:nth-child(even), .pari div:nth-child(odd){
+  background-color: black;
+}
+
+.dispari div:nth-child(1) span:first-child{
+  position: absolute;
+  top: -35px;
+  left: 40px;
+}
+
+.dispari div:nth-child(2) span:first-child{
+  position: absolute;
+  top: -35px;
+  left: 140px;
+}
+
+.dispari div:nth-child(3) span:first-child{
+  position: absolute;
+  top: -35px;
+  left: 240px;
+}
+
+.dispari div:nth-child(4) span:first-child{
+  position: absolute;
+  top: -35px;
+  left: 340px;
+}
+
+.dispari div:nth-child(5) span:first-child{
+  position: absolute;
+  top: -35px;
+  left: 440px;
+}
+
+.dispari div:nth-child(6) span:first-child{
+  position: absolute;
+  top: -35px;
+  left: 540px;
+}
+
+.dispari div:nth-child(7) span:first-child{
+  position: absolute;
+  top: -35px;
+  left: 640px;
+}
+
+.dispari div:nth-child(8) span:first-child{
+  position: absolute;
+  top: -35px;
+  left: 740px;
+}
+
+.dispari div:first-of-type span:nth-child(2){
+  position: absolute;
+  top: 35px;
+  left:-20px;
+}
+
+.dispari div:first-of-type span:nth-child(3){
+  position: absolute;
+  top: 135px;
+  left:-20px;
+}
+
+.dispari div:first-of-type span:nth-child(4){
+  position: absolute;
+  top: 235px;
+  left:-20px;
+}
+
+.dispari div:first-of-type span:nth-child(5){
+  position: absolute;
+  top: 335px;
+  left:-20px;
+}
+
+.dispari div:first-of-type span:nth-child(6){
+  position: absolute;
+  top: 435px;
+  left:-20px;
+}
+
+.dispari div:first-of-type span:nth-child(7){
+  position: absolute;
+  top: 535px;
+  left:-20px;
+}
+
+.dispari div:first-of-type span:nth-child(8){
+  position: absolute;
+  top: 635px;
+  left:-20px;
+}
+
+.dispari div:first-of-type span:nth-child(9){
+  position: absolute;
+  top: 735px;
+  left:-20px;
+}
+
+.dispari div:nth-child(1) span:last-child{
+  position: absolute;
+  bottom: -35px;
+  left: 40px;
+}
+
+.dispari div:nth-child(2) span:last-child{
+  position: absolute;
+  bottom: -35px;
+  left: 140px;
+}
+
+.dispari div:nth-child(3) span:last-child{
+  position: absolute;
+  bottom: -35px;
+  left: 240px;
+}
+
+.dispari div:nth-child(4) span:last-child{
+  position: absolute;
+  bottom: -35px;
+  left: 340px;
+}
+
+.dispari div:nth-child(5) span:last-child{
+  position: absolute;
+  bottom: -35px;
+  left: 440px;
+}
+
+.dispari div:nth-child(6) span:last-child{
+  position: absolute;
+  bottom: -35px;
+  left: 540px;
+}
+
+.dispari div:nth-child(7) span:last-child{
+  position: absolute;
+  bottom: -35px;
+  left: 640px;
+}
+
+.dispari div:nth-child(8) span:last-child{
+  position: absolute;
+  bottom: -35px;
+  left: 740px;
+} 
+
+
+.dispari div:last-of-type span:nth-child(2){
+  position: absolute;
+  top: 35px;
+  right: -20px;
+}
+
+.dispari div:last-of-type span:nth-child(3){
+  position: absolute;
+  top: 135px;
+  right: -20px;
+}
+
+.dispari div:last-of-type span:nth-child(4){
+  position: absolute;
+  top: 235px;
+  right:-20px;
+}
+
+.dispari div:last-of-type span:nth-child(5){
+  position: absolute;
+  top: 335px;
+  right:-20px;
+}
+
+.dispari div:last-of-type span:nth-child(6){
+  position: absolute;
+  top: 435px;
+  right:-20px;
+}
+
+.dispari div:last-of-type span:nth-child(7){
+  position: absolute;
+  top: 535px;
+  right:-20px;
+}
+
+.dispari div:last-of-type span:nth-child(8){
+  position: absolute;
+  top: 635px;
+  right:-20px;
+}
+
+.dispari div:last-of-type span:nth-child(9){
+  position: absolute;
+  top: 735px;
+  right:-20px;
+}
+
+.container div:hover{
+  background-color: red;
+}
